@@ -1,4 +1,4 @@
 disco
 =====
 
-flashing disco lights
+flashing disco lights made with javascript
