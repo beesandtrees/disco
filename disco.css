@@ -1,0 +1,67 @@
+body{
+	padding:0px;
+	margin:0px;
+	font-family:sans-serif;
+	background:rgb(7,11,42);
+}
+	
+	#colorBLOCK {
+		z-index:1; 
+		position:fixed; 
+		top:0px; 
+		left:0px; 
+		background:rgb(7,11,42);
+	}
+			
+	.bigNums div.ColNums {
+		width: 200px;
+		position: fixed;
+		top: 180px;
+		right: 10px;
+		list-style-type: none;
+		background-color: #0CF;
+		border-radius: 9px;
+		padding: 9px;
+		color: white;
+		font-weight: bold;
+		overflow: hidden;
+		height: auto;
+		font-size:1.2em;
+		z-index:3;
+	}
+	
+	.start {
+		display: none;
+	}
+
+	.bigNums div .row{
+		display:block;
+	}
+	
+	.bigNums div .colorholder{
+		display:block !important;
+		float:left;
+		margin: 5px;
+	}
+	
+	.bigNums div .colorholder .eaColor {
+		display:block;
+		width:80px;
+		height:80px;
+		border-radius: 40px 40px 40px 40px;
+	}	
+	
+.grassHolder, .grassHolder2 {
+	background: url(../grass.png) repeat-x center bottom transparent;
+	bottom:0;
+	left:0;
+	position:fixed;
+	height:70px;
+	width:100%;
+	z-index:1;
+}
+
+.grassHolder2 {
+	background: url(../grass2.png) repeat-x center bottom transparent;
+	z-index:2;	
+}			
