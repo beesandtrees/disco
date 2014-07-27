@@ -1,8 +1,15 @@
 body{
 	padding:0px;
 	margin:0px;
-	font-family:sans-serif;
+	font-family: helvetica neue, arial, sans-serif;
 	background:rgb(7,11,42);
+}
+
+h2 {
+	font-weight: 100;	
+	font-weight: lighter;	
+	margin: 0;
+	padding: .25em 0;
 }
 	
 	#colorBLOCK {
@@ -14,20 +21,27 @@ body{
 	}
 			
 	.bigNums div.ColNums {
-		width: 200px;
+		width: auto;
 		position: fixed;
-		top: 180px;
-		right: 10px;
-		list-style-type: none;
-		background-color: #0CF;
+		top: 18px;
+		right: 18px;
 		border-radius: 9px;
-		padding: 9px;
+		padding: 0 1em;
 		color: white;
-		font-weight: bold;
 		overflow: hidden;
 		height: auto;
 		font-size:1.2em;
 		z-index:3;
+	}
+	
+	.bigNums div.ColNums.start {
+		background: rgba(70,70,70,.8);
+	}
+	
+	.bigNums ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;		
 	}
 	
 	.start {
@@ -49,19 +63,4 @@ body{
 		width:80px;
 		height:80px;
 		border-radius: 40px 40px 40px 40px;
-	}	
-	
-.grassHolder, .grassHolder2 {
-	background: url(../grass.png) repeat-x center bottom transparent;
-	bottom:0;
-	left:0;
-	position:fixed;
-	height:70px;
-	width:100%;
-	z-index:1;
-}
-
-.grassHolder2 {
-	background: url(../grass2.png) repeat-x center bottom transparent;
-	z-index:2;	
-}			
+	}			
